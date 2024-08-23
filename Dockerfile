@@ -6,9 +6,9 @@ FROM --platform=linux/amd64 mambaorg/micromamba:1.3.1-focal
 
 ################## METADATA ######################
 LABEL base_image="mambaorg/micromamba:1.3.1-focal"
-LABEL version="1.0.0"
+LABEL version="1.0.1"
 LABEL software="RSeQC"
-LABEL software.version="5.0.1"
+LABEL software.version="5.0.3"
 LABEL about.summary="The RSeQC package provides a number of useful modules that can comprehensively evaluate high throughput sequence data especially RNA-seq data."
 LABEL about.home="https://rseqc.sourceforge.net/"
 LABEL about.documentation="https://rseqc.sourceforge.net/"
